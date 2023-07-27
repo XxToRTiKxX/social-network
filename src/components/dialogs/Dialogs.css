@@ -1,0 +1,28 @@
+.dialogs{
+    display: grid;
+    grid-template-areas:
+    'n m'
+    'n i'
+    'n b';
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+.name{
+    grid-area: n;
+    text-align: center;
+}
+.message{
+    grid-area: m;
+
+}
+.input{
+    grid-area: i;
+    width: 400px;
+    border-radius: 2px;
+}
+.send{
+    grid-area: b;
+    width: 75px;
+    border-radius: 5px;
+}
